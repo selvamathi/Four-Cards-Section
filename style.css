@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    font-weight:200;
+}
+
+
+.task-border-info{
+    border-top:3px solid hsl(180, 62%, 55%);
+}
+
+.task-border-danger{
+    border-top:3px solid  hsl(0, 78%, 62%);
+}
+
+.task-border-warning{
+    border-top:3px solid hsl(34, 97%, 64%);
+}
+
+.task-border-primary{
+    border-top:3px solid hsl(212, 86%, 64%);
+}
+
+.text-black{
+    color:hsl(234, 12%, 34%);
+
+}
+
+.text-gray{
+    color:hsl(229, 6%, 66%);
+}
+
+.shadow-bottom{
+    box-shadow:10px 10px 10px 10px rgba(236, 234, 234, 0.747);
+}
+
+.distance{
+    margin-top: 150px;
+}
+
+@media only screen and(max-width: 298px) {
+    .width{
+        width:100px!important;
+        margin-left:30px!important;
+    }
+}
+
+@media only screen and (min-width: 299px) and (max-width: 396px) {
+    .width{
+        width:260px!important;
+        margin-left:59px!important;
+    }
+}
+
+@media only screen and (min-width: 397px) and (max-width: 474px) {
+    .width{
+        width:260px!important;
+        margin-left:69px!important;
+    }
+}
+
+@media only screen and (min-width: 475px) and (max-width: 556px) {
+    .width{
+        width:260px!important;
+        margin-left:79px!important;
+    }
+}
+
+@media only screen and (min-width: 557px) and (max-width: 678px) {
+    .width{
+        width:350px!important;
+        margin-left:79px!important;
+    }
+}
+@media only screen and (min-width: 679px) and (max-width: 768px) {
+    .width{
+        width:370px!important;
+        margin-left:79px!important;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 998px) {
+    .width{
+        width:400px!important;
+        margin-left:140px!important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+   .distance{
+       margin-top:5px!important;
+   }
+}
+
+@media only screen and (min-width: 999px) and (max-width: 1200px) {
+    .width{
+        width:450px!important;
+        margin-left:240px!important;
+    }
+}
+
+
+
+
+
+
